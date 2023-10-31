@@ -1,0 +1,40 @@
+body {
+  background-image: url("images/cinema-background.jpg");
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+}
+.moviesContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aquamarine;
+}
+.movieDiv {
+  padding: 10px;
+  margin: 10px;
+  background-color: grey;
+}
+.btn {
+  background-color: grey;
+  width: 100px;
+  height: 100px;
+  font-size: 50px;
+}
+.deleteBtn {
+  width: 40px;
+  height: 20px;
+  margin: 10px;
+  background-color: red;
+  font-size: 7pt;
+}
+#mainWeb {
+  margin: 0 auto;
+  width: 300px;
+}
+#formContainer {
+  margin: 0 auto;
+  width: 300px;
+}
